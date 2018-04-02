@@ -3,36 +3,24 @@
     "sources": [
       "loopback/common/models",
       "loopback/server/models",
-      "../common/models",
       "./models"
     ],
     "mixins": [
       "loopback/common/mixins",
       "loopback/server/mixins",
-      "../common/mixins",
       "./mixins"
     ]
   },
-  "User": {
-    "dataSource": "db"
-  },
   "AccessToken": {
     "dataSource": "db",
-    "public": false
+    "public": null
   },
   "ACL": {
     "dataSource": "db",
-    "public": false
+    "public": null
   },
-  "RoleMapping": {
+  "article": {
     "dataSource": "db",
-    "public": false,
-    "options": {
-      "strictObjectIDCoercion": true
-    }
-  },
-  "Role": {
-    "dataSource": "db",
-    "public": false
+    "public": true
   }
 }
