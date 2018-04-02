@@ -13,11 +13,11 @@
   },
   "AccessToken": {
     "dataSource": "db",
-    "public": null
+    "public": true
   },
   "ACL": {
     "dataSource": "db",
-    "public": null
+    "public": true
   },
   "article": {
     "dataSource": "db",
