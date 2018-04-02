@@ -11,19 +11,16 @@
       "./mixins"
     ]
   },
+  "AccessToken": {
+    "dataSource": "db",
+    "public": null
+  },
   "ACL": {
     "dataSource": "db",
-    "public": false
+    "public": null
   },
-  "RoleMapping": {
+  "article": {
     "dataSource": "db",
-    "public": false,
-    "options": {
-      "strictObjectIDCoercion": true
-    }
-  },
-  "Role": {
-    "dataSource": "db",
-    "public": false
+    "public": true
   }
 }
